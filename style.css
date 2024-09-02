@@ -514,8 +514,9 @@ hr {
     color: #000;
 }
 
-@media screen and (max-width : 1550px) {
-    .gretor{
-        display: none;
-    } 
+@media screen and (max-width:1550px){
+    .footer-section{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
 }
